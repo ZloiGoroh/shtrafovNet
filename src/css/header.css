@@ -1,0 +1,28 @@
+.logo-block{
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 34px;
+    height: 34px;
+    background-color: #63C556;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.logo-text{
+    padding-top: 3px;
+    font-family: 'GTWalsheim';
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.logo-text > span{
+    font-weight: bold;
+}

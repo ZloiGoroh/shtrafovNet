@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.simpleText{
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.input-box{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+input{
+    padding-left: 8px;
+    width: 403px;
+    height: 33px;
+    border: 1px solid #979797;
+}
+
+button{
+    margin-left: 11px;
+    border: none;
+    background-color: #63C556;
+    width: 117px;
+    height: 35px; 
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
