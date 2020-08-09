@@ -13,7 +13,7 @@ function Hint (props){
         }
         if (sum % 11 === 10){
             sum = 0;
-            for (let j = 0; j < num.length + 2; ++j){
+            for (let j = 0; j < num.length; ++j){
                 if (!isNaN(num[j])){
                     sum += (((j + 2) % 10) + 1) * parseInt(num[j]);
                 }
